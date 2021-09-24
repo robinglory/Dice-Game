@@ -4,8 +4,8 @@ var randomNumber2;
 randomNumber1 = Math.floor(Math.random()*7) ;
 randomNumber2 = Math.floor(Math.random()*7) ;
 
-var img1 = "images/dice"+randomNumber1+".png";
-var img2 = "images/dice" + randomNumber2+".png";
+var img1 = "dice"+randomNumber1+".png";
+var img2 = "dice" + randomNumber2+".png";
 
 document.querySelector(".img1").setAttribute("src",img1);
 document.querySelector(".img2").setAttribute("src",img2);
